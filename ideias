@@ -1,0 +1,12 @@
+		name = input('Please Inform The Name of The System: ')
+		location = input('Please Inform The Location of The System: ')
+
+		util.createDir(location+name)
+		util.createDir(location+name+"/common")
+		util.copyAllFilesWith('lib/base-files/', location+name, 'input.in')
+
+		config = configparser.ConfigParser(inline_comment_prefixes=';')
+		config.read(location+name+'/input.in')
+
+		config.set('system.iformation', 'name', name)
+		config.set('system.iformation', 'location', location)

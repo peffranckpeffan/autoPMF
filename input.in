@@ -1,0 +1,20 @@
+#Input file containing information for the simulations
+
+[system.information]
+name		= mdm2-p53
+location	= /home/peffranckpeffan/franck-hd/script-geral ; location of the script and the folder lib
+
+[standard.files] ;By default, these files need to be present in the -common- directory
+PDB file	= 1ycr.pdb
+parameters	= top_all36_prot.rtf, toppar_water_ions.str
+
+[build.system]
+ligand selection			= chain A 		; vmd format
+protein selection			= chain B 		
+minimum size of water box	= -30,-30,-45	; minimun size of water box
+maximum size of water box	= 30,30,45	; maximum size of water box
+
+[equilibration.configuration]
+output frequency	= 1000, 10000, 1000, 1000, 1000 ; restartfreq, dcdfreq, xstFreq, outputEnergies, outputPressure
+minimize			= 1000
+steps				= 5000000
