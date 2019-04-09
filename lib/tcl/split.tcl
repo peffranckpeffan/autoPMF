@@ -5,7 +5,7 @@ $all moveby [vecinv [measure center $all weight mass]]
 package require Orient
 namespace import Orient::orient
 
-set sel [atomselect top "all"]
+set sel [atomselect top "chain A or chain B"]
 set I [draw principalaxes $sel]
 set A [orient $sel [lindex $I 2] {0 0 1}]
 $sel move $A

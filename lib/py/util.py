@@ -67,5 +67,5 @@ def copyAllFilesWith(source_dir, dest_dir, expression):
 		if (os.path.isfile(file)):
 			shutil.copy2(file, dest_dir)
 
-def editConfigFile(listOfFiles, positions, additions):
-	
+# def editConfigFile(listOfFiles, positions, additions):
+# 	

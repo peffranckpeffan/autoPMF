@@ -96,4 +96,4 @@ if (goFoward):
 		#Update the dummy atom
 		util.update_dummy('equil', ['colv-equil'], 'common/solvate.pdb', 'segname A and backbone', stage)
 
-	if (stage == 'smd')
+	# if (stage == 'smd')
