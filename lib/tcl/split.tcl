@@ -1,11 +1,13 @@
 mol load pdb $env(pdb_file)
-set all [atomselect top "chain A or chain B"]
+
+set x [join [concat $env(protein_selection) " or "] "" ]
+set all [atomselect top [join [concat $x $env(ligand_selection)] "" ]]
 $all moveby [vecinv [measure center $all weight mass]]
 
 package require Orient
 namespace import Orient::orient
 
-set sel [atomselect top "chain A or chain B"]
+set sel [atomselect top [join [concat $x $env(ligand_selection)] "" ]]
 set I [draw principalaxes $sel]
 set A [orient $sel [lindex $I 2] {0 0 1}]
 $sel move $A
