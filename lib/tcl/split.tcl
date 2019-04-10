@@ -1,5 +1,5 @@
 mol load pdb $env(pdb_file)
-set all [atomselect top all]
+set all [atomselect top "chain A or chain B"]
 $all moveby [vecinv [measure center $all weight mass]]
 
 package require Orient

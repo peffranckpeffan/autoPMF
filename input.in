@@ -2,10 +2,10 @@
 
 [system.information]
 name		= mdm2-p53
-location	= /home/peffranckpeffan/franck-hd/autoPMF ; location of the script and the folder lib
+location	= /home/peffranckpeffan/autoPMF ; location of the script and the folder lib
 
 [standard.files] ;By default, these files need to be present in the -common- directory
-PDB file	= 3g03.pdb
+PDB file	= 1ycr.pdb
 parameters	= top_all36_prot.rtf, toppar_water_ions.str
 
 [build.system]

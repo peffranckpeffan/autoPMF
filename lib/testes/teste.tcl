@@ -40,3 +40,4 @@ set I [draw principalaxes $sel]
 # set b [atomselect top $env(ligand_selection)]
 # $b writepdb lig.pdb
 # exit
+-0.0009843314765021205 -0.0003816733951680362 9.677343368530273
