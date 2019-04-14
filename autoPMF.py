@@ -88,12 +88,14 @@ if (goFoward):
 		equilibration = config['build.system']
 		sys_inf = config['system.information']
 
-		util.copyAllFilesWith('lib/base-files','equil/', '*eq*')
+		#util.copyAllFilesWith(+sys_inf['location']'/lib/base-files', sys_inf['location']+'equil/', '*eq*')
 
 		#Mount the system
-		util.call_subprocess('vmd -dispdev text -e %s/lib/tcl/setup-equil.tcl' % (sys_inf['location']), 'equil/', True)
+		util.call_subprocess('vmd -dispdev text -e '+sys_inf['location']+'/lib/tcl/equil.tcl', sys_inf['location']+'equil/', True)
 
+		util.editConfigFile(sys_inf['location']+'/lib/base-files/conf_eq')
+		
 		#Update the dummy atom
-		util.update_dummy('equil', ['colv-equil'], 'common/solvate.pdb', 'segname A and backbone', stage)
+		util.update_dummy(sys_inf['location']+'/equil', ['colv-equil'], 'common/system.pdb', 'chain A and backbone', stage)
 
 	# if (stage == 'smd')

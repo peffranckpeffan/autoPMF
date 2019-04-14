@@ -15,9 +15,9 @@ def call_subprocess(command, directory, s):
 	subp.wait()
 
 def update_dummy(colvar_dir, colvar_name_list, center_file, selection, stage):
-	call_subprocess("env center_file='"+center_file+"' selection='"+selection+"' vmd -dispdev text -e "+sys_inf['location']+"/lib/tcl/get-center-mass.tcl", "../"+colvar_dir, True)
+	call_subprocess("env center_file='"+center_file+"' selection='"+selection+"' vmd -dispdev text -e "+sys_inf['location']+"/lib/tcl/get-center-mass.tcl", colvar_dir, True)
 	
-	centerFile = open("../"+colvar_dir+"/center.tmp")
+	centerFile = open(colvar_dir+"/center.tmp")
 	center=""
 	for line in centerFile:
 		center=line
@@ -25,8 +25,8 @@ def update_dummy(colvar_dir, colvar_name_list, center_file, selection, stage):
 	center=center.split(" ")
 
 	for i in range(0,len(colvar_name_list)):
-		lines = open("../"+colvar_dir+"/"+colvar_name_list[i], "r").readlines()
-		colv = open("../"+colvar_dir+"/"+colvar_name_list[i], "w")
+		lines = open(colvar_dir+"/"+colvar_name_list[i], "r").readlines()
+		colv = open(colvar_dir+"/"+colvar_name_list[i], "w")
 		update_dummy = 0
 		z=center[2].strip()
 		for line in lines:
@@ -45,7 +45,7 @@ def update_dummy(colvar_dir, colvar_name_list, center_file, selection, stage):
 
 		colv.close()
 
-	os.remove("../"+colvar_dir+"/center.tmp")
+	os.remove(colvar_dir+"/center.tmp")
 
 def createDir(location):
 	if not os.path.exists(location):
@@ -67,5 +67,5 @@ def copyAllFilesWith(source_dir, dest_dir, expression):
 		if (os.path.isfile(file)):
 			shutil.copy2(file, dest_dir)
 
-# def editConfigFile(listOfFiles, positions, additions):
-# 	
+#def editConfigFile(file, positions, additions):
+	

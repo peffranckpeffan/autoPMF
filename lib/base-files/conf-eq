@@ -133,4 +133,3 @@ for {set i 0} {$i <= $temperature} {incr i 1} {
 	langevinTemp $i 
 	run 500 
 }
- 
