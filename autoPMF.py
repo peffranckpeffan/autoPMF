@@ -76,7 +76,7 @@ if (goFoward):
 		os.remove('lib/tcl/solvate.tmp.tcl')
 
 		#IONAZING
-		command = 'vmd -dispdev text -e '+sys_inf['location']+'/lib/tcl/ionize.tcl'
+		command = 'env concentration=\'%s\'vmd -dispdev text -e '+sys_inf['location']+'/lib/tcl/ionize.tcl' % (stand_files['ions concentratrion']
 		util.call_subprocess(command, common_location, True)
 
 		shutil.copy2(common_location+'/ionized.psf', common_location+'/system.psf')

@@ -14,6 +14,8 @@ ligand selection			= chain A 		; vmd format
 protein selection			= chain B 		
 minimum size of water box	= -30,-30,-45	; minimun size of water box
 maximum size of water box	= 30,30,45	; maximum size of water box
+ions type					=
+ions concentratrion 		= 0.15
 
 [equil.config]
 ;periodic boundary conditions
