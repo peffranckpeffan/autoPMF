@@ -84,7 +84,7 @@ segment B {pdb lig.pdb}
 coordpdb lig.pdb B
 guesscoord
 
-writepdb system.pdb
-writepsf system.psf
+writepdb $env(sys_name).pdb
+writepsf $env(sys_name).psf
 
 exit

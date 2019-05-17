@@ -4,7 +4,7 @@ import configparser
 import shutil
 import pprint
 import os
-from lib.py import util
+from lib.py import util, build
 
 config = configparser.ConfigParser(inline_comment_prefixes=';')
 config.read('input.in')
@@ -36,51 +36,28 @@ if (goFoward):
 		common_location = sys_inf['location']+"/common"
 
 		#SPLITING CHAINS
-		command = "env pdb_file='%s' protein_selection='%s' ligand_selection='%s' vmd -dispdev text -e %s/lib/tcl/split.tcl" % (stand_files['PDB file'], init_config['ligand selection'], init_config['protein selection'], sys_inf['location'])
+		build.splitChains(stand_files['PDB file'], init_config['ligand selection'], init_config['protein selection'], sys_inf['location'], common_location)
+
+		#GENERATING PDB AND PSF
+		build.generatePSF(stand_files['parameters'], 'system', sys_inf['location'], common_location)
+
+		#USING MUSTANG
+		build.splitChains('base.pdb', 'chain A', 'chain B', sys_inf['location'], common_location)
+
+		build.generatePSF(stand_files['parameters'], 'base-complex', sys_inf['location'], common_location)
+
+		command = '../lib/thirty/mustang/bin/mustang-3.2.3 -p ./ -i base-complex.pdb system.pdb -o aligned -r ON'
 		util.call_subprocess(command, common_location, True)
 
-		#GENERATING PSF E PDB FILE
-		parameters = stand_files['parameters'].split(',')
+		build.splitChains('system.pdb', 'chain A', 'chain B', sys_inf['location'],common_location)
 
-		psf_tcl = open('lib/tcl/psf.tcl','r').readlines()
-
-		for x in range(0, len(parameters)):
-			psf_tcl.insert(x+1,'topology '+parameters[x].strip()+"\n")
-
-		# aliases = open(common_location+'/alias.in').readlines()
-		# for y in range(0, len(aliases)):
-		# 	psf_tcl.insert(y+4, aliases[y])#x+5->second line
-
-		psf_tcl_tmp = open('lib/tcl/psf.tmp.tcl','w')
-		psf_tcl = ''.join(psf_tcl)
-		psf_tcl_tmp.write(psf_tcl)
-		psf_tcl_tmp.close()
-
-		command = 'vmd -dispdev text -e '+sys_inf['location']+'/lib/tcl/psf.tmp.tcl'
-		util.call_subprocess(command, common_location, True)
-
-		os.remove('lib/tcl/psf.tmp.tcl')
+		build.generatePSF(stand_files['parameters'], 'system', sys_inf['location'], common_location)
 
 		#SOLVATING
-		min_box = ' '.join(init_config['minimum size of water box'].split(','))
-		max_box = ' '.join(init_config['maximum size of water box'].split(','))
-
-		with open('lib/tcl/solvate.tcl','r') as solvate_tcl:
-			with open('lib/tcl/solvate.tmp.tcl','w') as solvate_tcl_tmp:
-				for line in solvate_tcl:
-					solvate_tcl_tmp.write(line.replace('min_size_water_box', min_box).replace('max_size_water_box', max_box))
-
-		command = 'vmd -dispdev text -e '+sys_inf['location']+'/lib/tcl/solvate.tmp.tcl'
-		util.call_subprocess(command, common_location, True)
-
-		os.remove('lib/tcl/solvate.tmp.tcl')
+		build.solvate(init_config['minimum size of water box'], init_config['maximum size of water box'].split(','), sys_inf['location'], common_location)
 
 		#IONAZING
-		command = 'env concentration=\'%s\'vmd -dispdev text -e '+sys_inf['location']+'/lib/tcl/ionize.tcl' % (stand_files['ions concentratrion']
-		util.call_subprocess(command, common_location, True)
-
-		shutil.copy2(common_location+'/ionized.psf', common_location+'/system.psf')
-		shutil.copy2(common_location+'/ionized.pdb', common_location+'/system.pdb')
+		build.ionize(init_config['ions concentratrion'], sys_inf['location'], common_location)
 
 	if (stage == 'equil'):
 		util.createDir(sys_inf['location']+'/equil')

@@ -9,7 +9,8 @@ from math import *
 import os, errno, glob, shutil, json
 from pprint import pprint
 
-
+def teste():
+	print('teste')
 def call_subprocess(command, directory, s):
 	subp = subprocess.Popen(command, cwd=directory, shell=s)
 	subp.wait()
@@ -66,6 +67,7 @@ def copyAllFilesWith(source_dir, dest_dir, expression):
 	for file in files:
 		if (os.path.isfile(file)):
 			shutil.copy2(file, dest_dir)
+
 
 #def editConfigFile(file, positions, additions):
 	

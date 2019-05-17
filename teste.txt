@@ -1,0 +1,1203 @@
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 6 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 3717MB (46%)
+Info) Creating CUDA device pool and initializing hardware...
+Info) Detected 1 available CUDA accelerator:
+Info) [0] GeForce GTX 1070   15 SM_6.1 @ 1.68 GHz, 7.9GB RAM, KTO, AE2, ZCP
+Info) Detected 1 available TachyonL/OptiX ray tracing accelerator
+Info)   Compiling 1 OptiX shaders on 1 target GPU...
+Info) Dynamically loaded 4 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl ~/franck-hd/softwares-ic/la101psx
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl ~/franck-hd/softwares-ic/la101psx ~/franck-hd/softwares-ic/orient
+Info) Using plugin pdb for structure file 3g03.pdb
+Info) Using plugin pdb for coordinates from file 3g03.pdb
+Info) Determining bond structure from distance search ...
+Info) Finished with coordinate file 3g03.pdb.
+Info) Analyzing structure ...
+Info)    Atoms: 1743
+Info)    Bonds: 1623
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 350
+Info)    Waters: 158
+Warning) Unusual bond between residues:  25 (none) and 26 (protein)
+Warning) Unusual bond between residues:  51 (protein) and 5 (waters)
+Warning) Unusual bond between residues:  51 (protein) and 5 (waters)
+Warning) Unusual bond between residues:  77 (protein) and 78 (none)
+Warning) Unusual bond between residues:  78 (none) and 79 (protein)
+Info)    Segments: 1
+Info)    Fragments: 161   Protein: 5   Nucleic: 0
+0
+atomselect0
+atomselect1
+Info) Opened coordinate file prot.pdb for writing.
+Info) Finished with coordinate file prot.pdb.
+atomselect2
+Info) Opened coordinate file lig.pdb for writing.
+Info) Finished with coordinate file lig.pdb.
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 6 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 3715MB (46%)
+Info) Creating CUDA device pool and initializing hardware...
+Info) Detected 1 available CUDA accelerator:
+Info) [0] GeForce GTX 1070   15 SM_6.1 @ 1.68 GHz, 7.9GB RAM, KTO, AE2, ZCP
+Info) Detected 1 available TachyonL/OptiX ray tracing accelerator
+Info)   Compiling 1 OptiX shaders on 1 target GPU...
+Info) Dynamically loaded 4 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl ~/franck-hd/softwares-ic/la101psx
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl ~/franck-hd/softwares-ic/la101psx ~/franck-hd/softwares-ic/orient
+1.7
+psfgen) reading topology file top_all36_prot.rtf
+
+psfgen) >>>>>>>>CHARMM36 All-Hydrogen Topology File for Proteins <<<<<<
+psfgen) >>>>> Includes phi, psi cross term map (CMAP) correction <<<<<<<
+psfgen) >>>>>>>>>>>>>>>>>>>>>>>>>> May 2011 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+psfgen)  All comments to the CHARMM web site: www.charmm.org
+psfgen)              parameter set discussion forum
+psfgen) 
+psfgen) Created by CHARMM version 36 1
+psfgen) cross-term entries present in topology definitions
+psfgen) reading topology file toppar_water_ions.str
+
+psfgen)  Toplogy and parameter information for water and ions.
+psfgen) 
+psfgen) reading topology from stream file
+psfgen)  Topology for water and ions
+psfgen) 
+psfgen) Created by CHARMM version 31 1
+psfgen) skipping parameters in stream file
+psfgen)  Parameters for water and ions
+psfgen) 
+psfgen)  NBFix between carboxylate and sodium
+psfgen) 
+psfgen) ERROR!  FAILED TO RECOGNIZE NBFIX.  Line 300: NBFIX
+
+psfgen) skipping statements at end of file due to end or return statement
+psfgen) aliasing residue TIP to TIP3
+psfgen) aliasing residue HOH to TIP3
+psfgen) aliasing residue WAT to TIP3
+psfgen) aliasing residue SOL to TIP3
+psfgen) aliasing residue HID to HSE
+psfgen) aliasing residue Cl- to ClA
+psfgen) aliasing residue K+ to POT
+psfgen) aliasing residue POP to POPE
+psfgen) aliasing residue LIP to POPE
+psfgen) aliasing residue DMP to DMPC
+psfgen) aliasing residue HIS to HSD
+psfgen) aliasing residue HSC to HSD
+psfgen) aliasing residue ILE atom CD1 to CD
+psfgen) aliasing residue ILE atom HD11 to HD1
+psfgen) aliasing residue ILE atom HD12 to HD2
+psfgen) aliasing residue ILE atom HD13 to HD3
+psfgen) aliasing residue TIP3 atom O to OH2
+psfgen) aliasing residue TIP3 atom HT1 to H1
+psfgen) aliasing residue TIP3 atom HT2 to H2
+psfgen) aliasing residue TIP3 atom OW to OH2
+psfgen) aliasing residue TIP3 atom HW1 to H1
+psfgen) aliasing residue TIP3 atom HW2 to H2
+psfgen) aliasing residue CLA atom Cl- to CLA
+psfgen) aliasing residue POT atom K+ to POT
+psfgen) aliasing residue FOR atom H to HN
+psfgen) aliasing residue GLY atom H to HN
+psfgen) aliasing residue LEU atom H to HN
+psfgen) aliasing residue VAL atom H to HN
+psfgen) aliasing residue TRP atom H to HN
+psfgen) aliasing residue ETA atom HF to H51
+psfgen) aliasing residue ETA atom HE to H52
+psfgen) aliasing residue ETA atom HA2 to H11
+psfgen) aliasing residue ETA atom HA1 to H12
+psfgen) aliasing residue ETA atom H to HN1
+psfgen) aliasing residue ETA atom HE1 to HO1
+psfgen) aliasing residue ETA atom CE to C5
+psfgen) aliasing residue ETA atom CA to C1
+psfgen) aliasing residue ETA atom OE to OH1
+psfgen) building segment A
+psfgen) reading residues from pdb file prot.pdb
+psfgen) extracted 21 residues from pdb file
+psfgen) Info: generating structure...psfgen) Info: skipping improper N-C-CA-HN at beginning of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+psfgen) Info: skipping conformation C-N-CA-C at beginning of segment.
+psfgen) Info: skipping conformation C-CA-N-HN at beginning of segment.
+psfgen) ERROR: Missing atoms for bond C(0) N(1) in residue THR:27
+psfgen) ERROR: Missing atoms for improper C(0) CA(0) N(1) O(0)
+	in residue THR:27
+psfgen) ERROR: Missing atoms for cross-term  C(-1) N(0) CA(0) C(0) N(0) CA(0) C(0) N(1)
+	in residue THR:27
+psfgen) Warning: missing atoms for conformation THR CA-C-N-CA; skipping.
+psfgen) Warning: missing atoms for conformation THR N-CA-C-O; skipping.
+psfgen) Warning: missing atoms for conformation THR N-CA-C-N; skipping.
+psfgen) Warning: explicit angles in residue TIP3:2 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:34 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:45 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:52 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:82 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:83 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:96 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:145 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:163 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:171 will be deleted during autogeneration
+segment complete.
+psfgen) reading coordinates from pdb file prot.pdb for segment A
+psfgen) building segment B
+psfgen) reading residues from pdb file lig.pdb
+psfgen) extracted 160 residues from pdb file
+psfgen) Info: generating structure...psfgen) Info: skipping improper N-C-CA-HN at beginning of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+psfgen) Info: skipping conformation C-N-CA-C at beginning of segment.
+psfgen) Info: skipping conformation C-CA-N-HN at beginning of segment.
+psfgen) ERROR: Missing atoms for bond C(0) N(1) in residue ASN:111
+psfgen) ERROR: Missing atoms for improper C(0) CA(0) N(1) O(0)
+	in residue ASN:111
+psfgen) ERROR: Missing atoms for cross-term  C(-1) N(0) CA(0) C(0) N(0) CA(0) C(0) N(1)
+	in residue ASN:111
+psfgen) Warning: missing atoms for conformation ASN CA-C-N-CA; skipping.
+psfgen) Warning: missing atoms for conformation ASN N-CA-C-O; skipping.
+psfgen) Warning: missing atoms for conformation ASN N-CA-C-N; skipping.
+psfgen) Warning: explicit angles in residue TIP3:5 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:7 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:8 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:11 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:14 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:15 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:126 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:127 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:128 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:129 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:130 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:131 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:132 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:133 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:134 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:135 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:136 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:137 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:138 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:139 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:140 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:141 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:142 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:143 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:144 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:145 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:146 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:147 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:148 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:149 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:150 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:151 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:152 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:153 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:154 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:155 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:156 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:157 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:158 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:159 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:160 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:161 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:162 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:163 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:164 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:165 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:166 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:167 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:168 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:169 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:170 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:171 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:172 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:173 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:174 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:175 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:176 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:177 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:178 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:179 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:180 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:181 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:182 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:183 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:184 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:185 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:186 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:187 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:188 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:189 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:190 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:191 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:192 will be deleted during autogeneration
+segment complete.
+psfgen) reading coordinates from pdb file lig.pdb for segment B
+psfgen) Info: guessing coordinates for 1031 atoms (15 non-hydrogen)
+psfgen) Warning: poorly guessed coordinates for 172 atoms (0 non-hydrogen):
+psfgen) Warning: poorly guessed coordinate for atom HT1	 LEU:17	  A
+psfgen) Warning: poorly guessed coordinate for atom HT2	 LEU:17	  A
+psfgen) Warning: poorly guessed coordinate for atom HT3	 LEU:17	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:34	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:34	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:45	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:45	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:52	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:52	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:82	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:82	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:83	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:83	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:96	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:96	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:145	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:145	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:163	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:163	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:171	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:171	  A
+psfgen) Warning: poorly guessed coordinate for atom HT1	 GLU:25	  B
+psfgen) Warning: poorly guessed coordinate for atom HT2	 GLU:25	  B
+psfgen) Warning: poorly guessed coordinate for atom HT3	 GLU:25	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:5	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:5	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:7	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:7	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:8	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:8	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:11	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:11	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:14	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:14	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:15	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:15	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:126	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:126	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:127	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:127	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:128	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:128	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:129	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:129	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:130	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:130	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:131	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:131	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:132	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:132	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:133	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:133	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:134	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:134	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:135	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:135	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:136	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:136	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:137	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:137	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:138	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:138	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:139	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:139	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:140	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:140	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:141	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:141	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:142	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:142	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:143	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:143	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:144	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:144	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:145	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:145	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:146	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:146	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:147	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:147	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:148	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:148	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:149	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:149	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:150	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:150	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:151	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:151	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:152	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:152	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:153	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:153	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:154	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:154	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:155	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:155	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:156	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:156	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:157	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:157	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:158	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:158	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:159	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:159	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:160	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:160	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:161	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:161	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:162	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:162	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:163	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:163	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:164	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:164	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:165	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:165	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:166	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:166	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:167	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:167	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:168	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:168	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:169	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:169	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:170	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:170	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:171	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:171	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:172	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:172	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:173	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:173	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:174	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:174	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:175	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:175	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:176	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:176	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:177	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:177	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:178	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:178	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:179	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:179	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:180	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:180	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:181	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:181	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:182	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:182	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:183	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:183	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:184	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:184	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:185	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:185	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:186	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:186	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:187	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:187	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:188	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:188	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:189	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:189	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:190	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:190	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:191	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:191	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:192	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:192	  B
+psfgen) Info: writing pdb file system.pdb
+psfgen) Info: Atoms with guessed coordinates will have occupancy of 0.0.
+psfgen) Info: pdb file complete.
+psfgen) Info: writing psf file system.psf
+psfgen) total of 1919 atoms
+psfgen) total of 1854 bonds
+psfgen) total of 3141 angles
+psfgen) total of 4477 dihedrals
+psfgen) total of 263 impropers
+psfgen) total of 0 explicit exclusions
+psfgen) total of 94 cross-terms
+psfgen) Info: psf file complete.
+A:17 
+B:25 
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 6 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 3715MB (46%)
+Info) Creating CUDA device pool and initializing hardware...
+Info) Detected 1 available CUDA accelerator:
+Info) [0] GeForce GTX 1070   15 SM_6.1 @ 1.68 GHz, 7.9GB RAM, KTO, AE2, ZCP
+Info) Detected 1 available TachyonL/OptiX ray tracing accelerator
+Info)   Compiling 1 OptiX shaders on 1 target GPU...
+Info) Dynamically loaded 4 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl ~/franck-hd/softwares-ic/la101psx
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl ~/franck-hd/softwares-ic/la101psx ~/franck-hd/softwares-ic/orient
+ERROR) Could not read file base.pdb
+Unable to load structure file base.pdb
+There is no 'top' molecule  in atomselect's 'molId'
+can't read "all": no such variable
+There is no 'top' molecule  in atomselect's 'molId'
+can't read "a": no such variable
+There is no 'top' molecule  in atomselect's 'molId'
+can't read "b": no such variable
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 6 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 3714MB (46%)
+Info) Creating CUDA device pool and initializing hardware...
+Info) Detected 1 available CUDA accelerator:
+Info) [0] GeForce GTX 1070   15 SM_6.1 @ 1.68 GHz, 7.9GB RAM, KTO, AE2, ZCP
+Info) Detected 1 available TachyonL/OptiX ray tracing accelerator
+Info)   Compiling 1 OptiX shaders on 1 target GPU...
+Info) Dynamically loaded 4 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl ~/franck-hd/softwares-ic/la101psx
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl ~/franck-hd/softwares-ic/la101psx ~/franck-hd/softwares-ic/orient
+1.7
+psfgen) reading topology file top_all36_prot.rtf
+
+psfgen) >>>>>>>>CHARMM36 All-Hydrogen Topology File for Proteins <<<<<<
+psfgen) >>>>> Includes phi, psi cross term map (CMAP) correction <<<<<<<
+psfgen) >>>>>>>>>>>>>>>>>>>>>>>>>> May 2011 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+psfgen)  All comments to the CHARMM web site: www.charmm.org
+psfgen)              parameter set discussion forum
+psfgen) 
+psfgen) Created by CHARMM version 36 1
+psfgen) cross-term entries present in topology definitions
+psfgen) reading topology file toppar_water_ions.str
+
+psfgen)  Toplogy and parameter information for water and ions.
+psfgen) 
+psfgen) reading topology from stream file
+psfgen)  Topology for water and ions
+psfgen) 
+psfgen) Created by CHARMM version 31 1
+psfgen) skipping parameters in stream file
+psfgen)  Parameters for water and ions
+psfgen) 
+psfgen)  NBFix between carboxylate and sodium
+psfgen) 
+psfgen) ERROR!  FAILED TO RECOGNIZE NBFIX.  Line 300: NBFIX
+
+psfgen) skipping statements at end of file due to end or return statement
+psfgen) aliasing residue TIP to TIP3
+psfgen) aliasing residue HOH to TIP3
+psfgen) aliasing residue WAT to TIP3
+psfgen) aliasing residue SOL to TIP3
+psfgen) aliasing residue HID to HSE
+psfgen) aliasing residue Cl- to ClA
+psfgen) aliasing residue K+ to POT
+psfgen) aliasing residue POP to POPE
+psfgen) aliasing residue LIP to POPE
+psfgen) aliasing residue DMP to DMPC
+psfgen) aliasing residue HIS to HSD
+psfgen) aliasing residue HSC to HSD
+psfgen) aliasing residue ILE atom CD1 to CD
+psfgen) aliasing residue ILE atom HD11 to HD1
+psfgen) aliasing residue ILE atom HD12 to HD2
+psfgen) aliasing residue ILE atom HD13 to HD3
+psfgen) aliasing residue TIP3 atom O to OH2
+psfgen) aliasing residue TIP3 atom HT1 to H1
+psfgen) aliasing residue TIP3 atom HT2 to H2
+psfgen) aliasing residue TIP3 atom OW to OH2
+psfgen) aliasing residue TIP3 atom HW1 to H1
+psfgen) aliasing residue TIP3 atom HW2 to H2
+psfgen) aliasing residue CLA atom Cl- to CLA
+psfgen) aliasing residue POT atom K+ to POT
+psfgen) aliasing residue FOR atom H to HN
+psfgen) aliasing residue GLY atom H to HN
+psfgen) aliasing residue LEU atom H to HN
+psfgen) aliasing residue VAL atom H to HN
+psfgen) aliasing residue TRP atom H to HN
+psfgen) aliasing residue ETA atom HF to H51
+psfgen) aliasing residue ETA atom HE to H52
+psfgen) aliasing residue ETA atom HA2 to H11
+psfgen) aliasing residue ETA atom HA1 to H12
+psfgen) aliasing residue ETA atom H to HN1
+psfgen) aliasing residue ETA atom HE1 to HO1
+psfgen) aliasing residue ETA atom CE to C5
+psfgen) aliasing residue ETA atom CA to C1
+psfgen) aliasing residue ETA atom OE to OH1
+psfgen) building segment A
+psfgen) reading residues from pdb file prot.pdb
+psfgen) extracted 21 residues from pdb file
+psfgen) Info: generating structure...psfgen) Info: skipping improper N-C-CA-HN at beginning of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+psfgen) Info: skipping conformation C-N-CA-C at beginning of segment.
+psfgen) Info: skipping conformation C-CA-N-HN at beginning of segment.
+psfgen) ERROR: Missing atoms for bond C(0) N(1) in residue THR:27
+psfgen) ERROR: Missing atoms for improper C(0) CA(0) N(1) O(0)
+	in residue THR:27
+psfgen) ERROR: Missing atoms for cross-term  C(-1) N(0) CA(0) C(0) N(0) CA(0) C(0) N(1)
+	in residue THR:27
+psfgen) Warning: missing atoms for conformation THR CA-C-N-CA; skipping.
+psfgen) Warning: missing atoms for conformation THR N-CA-C-O; skipping.
+psfgen) Warning: missing atoms for conformation THR N-CA-C-N; skipping.
+psfgen) Warning: explicit angles in residue TIP3:2 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:34 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:45 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:52 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:82 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:83 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:96 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:145 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:163 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:171 will be deleted during autogeneration
+segment complete.
+psfgen) reading coordinates from pdb file prot.pdb for segment A
+psfgen) building segment B
+psfgen) reading residues from pdb file lig.pdb
+psfgen) extracted 160 residues from pdb file
+psfgen) Info: generating structure...psfgen) Info: skipping improper N-C-CA-HN at beginning of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+psfgen) Info: skipping conformation C-N-CA-C at beginning of segment.
+psfgen) Info: skipping conformation C-CA-N-HN at beginning of segment.
+psfgen) ERROR: Missing atoms for bond C(0) N(1) in residue ASN:111
+psfgen) ERROR: Missing atoms for improper C(0) CA(0) N(1) O(0)
+	in residue ASN:111
+psfgen) ERROR: Missing atoms for cross-term  C(-1) N(0) CA(0) C(0) N(0) CA(0) C(0) N(1)
+	in residue ASN:111
+psfgen) Warning: missing atoms for conformation ASN CA-C-N-CA; skipping.
+psfgen) Warning: missing atoms for conformation ASN N-CA-C-O; skipping.
+psfgen) Warning: missing atoms for conformation ASN N-CA-C-N; skipping.
+psfgen) Warning: explicit angles in residue TIP3:5 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:7 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:8 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:11 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:14 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:15 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:126 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:127 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:128 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:129 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:130 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:131 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:132 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:133 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:134 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:135 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:136 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:137 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:138 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:139 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:140 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:141 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:142 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:143 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:144 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:145 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:146 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:147 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:148 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:149 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:150 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:151 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:152 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:153 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:154 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:155 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:156 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:157 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:158 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:159 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:160 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:161 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:162 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:163 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:164 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:165 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:166 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:167 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:168 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:169 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:170 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:171 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:172 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:173 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:174 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:175 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:176 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:177 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:178 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:179 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:180 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:181 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:182 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:183 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:184 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:185 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:186 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:187 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:188 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:189 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:190 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:191 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:192 will be deleted during autogeneration
+segment complete.
+psfgen) reading coordinates from pdb file lig.pdb for segment B
+psfgen) Info: guessing coordinates for 1031 atoms (15 non-hydrogen)
+psfgen) Warning: poorly guessed coordinates for 172 atoms (0 non-hydrogen):
+psfgen) Warning: poorly guessed coordinate for atom HT1	 LEU:17	  A
+psfgen) Warning: poorly guessed coordinate for atom HT2	 LEU:17	  A
+psfgen) Warning: poorly guessed coordinate for atom HT3	 LEU:17	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:34	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:34	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:45	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:45	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:52	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:52	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:82	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:82	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:83	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:83	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:96	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:96	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:145	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:145	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:163	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:163	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:171	  A
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:171	  A
+psfgen) Warning: poorly guessed coordinate for atom HT1	 GLU:25	  B
+psfgen) Warning: poorly guessed coordinate for atom HT2	 GLU:25	  B
+psfgen) Warning: poorly guessed coordinate for atom HT3	 GLU:25	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:5	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:5	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:7	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:7	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:8	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:8	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:11	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:11	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:14	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:14	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:15	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:15	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:126	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:126	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:127	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:127	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:128	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:128	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:129	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:129	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:130	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:130	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:131	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:131	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:132	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:132	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:133	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:133	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:134	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:134	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:135	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:135	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:136	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:136	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:137	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:137	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:138	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:138	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:139	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:139	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:140	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:140	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:141	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:141	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:142	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:142	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:143	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:143	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:144	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:144	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:145	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:145	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:146	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:146	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:147	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:147	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:148	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:148	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:149	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:149	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:150	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:150	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:151	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:151	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:152	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:152	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:153	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:153	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:154	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:154	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:155	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:155	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:156	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:156	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:157	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:157	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:158	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:158	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:159	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:159	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:160	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:160	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:161	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:161	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:162	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:162	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:163	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:163	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:164	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:164	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:165	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:165	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:166	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:166	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:167	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:167	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:168	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:168	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:169	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:169	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:170	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:170	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:171	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:171	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:172	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:172	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:173	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:173	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:174	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:174	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:175	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:175	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:176	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:176	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:177	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:177	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:178	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:178	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:179	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:179	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:180	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:180	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:181	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:181	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:182	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:182	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:183	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:183	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:184	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:184	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:185	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:185	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:186	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:186	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:187	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:187	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:188	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:188	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:189	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:189	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:190	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:190	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:191	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:191	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:192	  B
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:192	  B
+psfgen) Info: writing pdb file base-complex.pdb
+psfgen) Info: Atoms with guessed coordinates will have occupancy of 0.0.
+psfgen) Info: pdb file complete.
+psfgen) Info: writing psf file base-complex.psf
+psfgen) total of 1919 atoms
+psfgen) total of 1854 bonds
+psfgen) total of 3141 angles
+psfgen) total of 4477 dihedrals
+psfgen) total of 263 impropers
+psfgen) total of 0 explicit exclusions
+psfgen) total of 94 cross-terms
+psfgen) Info: psf file complete.
+A:17 
+B:25 
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > 
+[0;37;1;41m      MUSTANG (v3.2.3): A MUltiple STuructural AligNment alGorithm.        [0;0m
+[1;33;4;1;46m Authors:     [0;1;37;4;1;46m    A S Konagurthu,  J Whisstock, and P J Stuckey, A M Lesk. [0m
+[0;33;4;1;46m Reference:   [0;37;4;1;46m    A S Konagurthu et al. Proteins 64(3):559-574, 2006       [0m
+[0m
+
+Parsing the PDB file: [35mbase-complex.pdb[0m  (...contains [1m  98[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35m     system.pdb[0m  (...contains [1m  98[0m residues.)  [ [32;4mOK[0m ]
+Calculating Distance Matrices...                                     [ [32;4mOK[0m ]
+Pairwise Comparisons:        1 of    1                                           [ [32;4mOK[0m ]
+Extending Edge-Weights thro' intermediate structures...              [ [32;4mOK[0m ]
+Final Alignment using the extended weights...                        [ [32;4mOK[0m ]
+Superposing structures on the core: (...writing [31;1maligned.pdb[0m)         [ [32;4mOK[0m ]
+Writing rotation matrices and RMSDs:(...writing [31;1maligned.rms_rot[0m)     [ [32;4mOK[0m ]
+Output alignment in html:           (...writing [31;1maligned.html[0m)        [ [32;4mOK[0m ]
+
+All Done! Thank you for using [1mMUSTANG[0m.
+Running Time : 0.05  s.
+[36;4m.                                -=o0o=-                                  .[0m
+[36;3m|  Visit [0m[33;3mhttp://lcb.infotech.monash.edu.au[0m[36;3m for other supporting programs  |[0m
+[34;3m|            Some suggested utilities for you to try out:                 |
+[33;3m| SST[0m[36;3m: A Bayesian approach to assigning secondary structures.             [0m[33;3m|[0m
+[33;3m| MMLigner[0m[36;3m: Pairwise structural alignment using information & compression.[0m[33;3m|[0m
+[33;3m| Super[0m[36;3m: Rapidly screen entire PDB for well-superposable fragments.       [0m[33;3m|[0m
+[36;4m.                                -=o0o=-                                  .[0m
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 6 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 3714MB (46%)
+Info) Creating CUDA device pool and initializing hardware...
+Info) Detected 1 available CUDA accelerator:
+Info) [0] GeForce GTX 1070   15 SM_6.1 @ 1.68 GHz, 7.9GB RAM, KTO, AE2, ZCP
+Info) Detected 1 available TachyonL/OptiX ray tracing accelerator
+Info)   Compiling 1 OptiX shaders on 1 target GPU...
+Info) Dynamically loaded 4 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl ~/franck-hd/softwares-ic/la101psx
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl ~/franck-hd/softwares-ic/la101psx ~/franck-hd/softwares-ic/orient
+Info) Using plugin pdb for structure file system.pdb
+Info) Using plugin pdb for coordinates from file system.pdb
+Info) Determining bond structure from distance search ...
+Info) Finished with coordinate file system.pdb.
+Info) Analyzing structure ...
+Info)    Atoms: 1919
+Info)    Bonds: 1869
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 181
+Info)    Waters: 83
+Warning) Unusual bond between residues:  27 (protein) and 52 (waters)
+Warning) Unusual bond between residues:  39 (protein) and 153 (waters)
+Warning) Unusual bond between residues:  39 (protein) and 153 (waters)
+Warning) Unusual bond between residues:  51 (protein) and 5 (waters)
+Warning) Unusual bond between residues:  51 (protein) and 5 (waters)
+Warning) Unusual bond between residues:  51 (protein) and 5 (waters)
+Warning) Unusual bond between residues:  51 (protein) and 5 (waters)
+Warning) Unusual bond between residues:  51 (protein) and 5 (waters)
+Warning) Unusual bond between residues:  51 (protein) and 5 (waters)
+Warning) Unusual bond between residues:  71 (protein) and 168 (waters)
+Warning) Unusual bond between residues:  71 (protein) and 168 (waters)
+Info)    Segments: 2
+Info)    Fragments: 81   Protein: 2   Nucleic: 0
+0
+atomselect0
+atomselect1
+Info) Opened coordinate file prot.pdb for writing.
+Info) Finished with coordinate file prot.pdb.
+atomselect2
+Info) Opened coordinate file lig.pdb for writing.
+Info) Finished with coordinate file lig.pdb.
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 6 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 3714MB (46%)
+Info) Creating CUDA device pool and initializing hardware...
+Info) Detected 1 available CUDA accelerator:
+Info) [0] GeForce GTX 1070   15 SM_6.1 @ 1.68 GHz, 7.9GB RAM, KTO, AE2, ZCP
+Info) Detected 1 available TachyonL/OptiX ray tracing accelerator
+Info)   Compiling 1 OptiX shaders on 1 target GPU...
+Info) Dynamically loaded 4 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl ~/franck-hd/softwares-ic/la101psx
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl ~/franck-hd/softwares-ic/la101psx ~/franck-hd/softwares-ic/orient
+1.7
+psfgen) reading topology file top_all36_prot.rtf
+
+psfgen) >>>>>>>>CHARMM36 All-Hydrogen Topology File for Proteins <<<<<<
+psfgen) >>>>> Includes phi, psi cross term map (CMAP) correction <<<<<<<
+psfgen) >>>>>>>>>>>>>>>>>>>>>>>>>> May 2011 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+psfgen)  All comments to the CHARMM web site: www.charmm.org
+psfgen)              parameter set discussion forum
+psfgen) 
+psfgen) Created by CHARMM version 36 1
+psfgen) cross-term entries present in topology definitions
+psfgen) reading topology file toppar_water_ions.str
+
+psfgen)  Toplogy and parameter information for water and ions.
+psfgen) 
+psfgen) reading topology from stream file
+psfgen)  Topology for water and ions
+psfgen) 
+psfgen) Created by CHARMM version 31 1
+psfgen) skipping parameters in stream file
+psfgen)  Parameters for water and ions
+psfgen) 
+psfgen)  NBFix between carboxylate and sodium
+psfgen) 
+psfgen) ERROR!  FAILED TO RECOGNIZE NBFIX.  Line 300: NBFIX
+
+psfgen) skipping statements at end of file due to end or return statement
+psfgen) aliasing residue TIP to TIP3
+psfgen) aliasing residue HOH to TIP3
+psfgen) aliasing residue WAT to TIP3
+psfgen) aliasing residue SOL to TIP3
+psfgen) aliasing residue HID to HSE
+psfgen) aliasing residue Cl- to ClA
+psfgen) aliasing residue K+ to POT
+psfgen) aliasing residue POP to POPE
+psfgen) aliasing residue LIP to POPE
+psfgen) aliasing residue DMP to DMPC
+psfgen) aliasing residue HIS to HSD
+psfgen) aliasing residue HSC to HSD
+psfgen) aliasing residue ILE atom CD1 to CD
+psfgen) aliasing residue ILE atom HD11 to HD1
+psfgen) aliasing residue ILE atom HD12 to HD2
+psfgen) aliasing residue ILE atom HD13 to HD3
+psfgen) aliasing residue TIP3 atom O to OH2
+psfgen) aliasing residue TIP3 atom HT1 to H1
+psfgen) aliasing residue TIP3 atom HT2 to H2
+psfgen) aliasing residue TIP3 atom OW to OH2
+psfgen) aliasing residue TIP3 atom HW1 to H1
+psfgen) aliasing residue TIP3 atom HW2 to H2
+psfgen) aliasing residue CLA atom Cl- to CLA
+psfgen) aliasing residue POT atom K+ to POT
+psfgen) aliasing residue FOR atom H to HN
+psfgen) aliasing residue GLY atom H to HN
+psfgen) aliasing residue LEU atom H to HN
+psfgen) aliasing residue VAL atom H to HN
+psfgen) aliasing residue TRP atom H to HN
+psfgen) aliasing residue ETA atom HF to H51
+psfgen) aliasing residue ETA atom HE to H52
+psfgen) aliasing residue ETA atom HA2 to H11
+psfgen) aliasing residue ETA atom HA1 to H12
+psfgen) aliasing residue ETA atom H to HN1
+psfgen) aliasing residue ETA atom HE1 to HO1
+psfgen) aliasing residue ETA atom CE to C5
+psfgen) aliasing residue ETA atom CA to C1
+psfgen) aliasing residue ETA atom OE to OH1
+psfgen) building segment A
+psfgen) reading residues from pdb file prot.pdb
+psfgen) extracted 21 residues from pdb file
+psfgen) Info: generating structure...psfgen) Info: skipping improper N-C-CA-HN at beginning of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+psfgen) Info: skipping conformation C-N-CA-C at beginning of segment.
+psfgen) Info: skipping conformation C-CA-N-HN at beginning of segment.
+psfgen) ERROR: Missing atoms for bond C(0) N(1) in residue THR:27
+psfgen) ERROR: Missing atoms for improper C(0) CA(0) N(1) O(0)
+	in residue THR:27
+psfgen) ERROR: Missing atoms for cross-term  C(-1) N(0) CA(0) C(0) N(0) CA(0) C(0) N(1)
+	in residue THR:27
+psfgen) Warning: missing atoms for conformation THR CA-C-N-CA; skipping.
+psfgen) Warning: missing atoms for conformation THR N-CA-C-O; skipping.
+psfgen) Warning: missing atoms for conformation THR N-CA-C-N; skipping.
+psfgen) Warning: explicit angles in residue TIP3:2 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:34 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:45 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:52 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:82 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:83 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:96 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:145 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:163 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:171 will be deleted during autogeneration
+segment complete.
+psfgen) reading coordinates from pdb file prot.pdb for segment A
+psfgen) building segment B
+psfgen) reading residues from pdb file lig.pdb
+psfgen) extracted 160 residues from pdb file
+psfgen) Info: generating structure...psfgen) Info: skipping improper N-C-CA-HN at beginning of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+psfgen) Info: skipping conformation C-N-CA-C at beginning of segment.
+psfgen) Info: skipping conformation C-CA-N-HN at beginning of segment.
+psfgen) ERROR: Missing atoms for bond C(0) N(1) in residue ASN:111
+psfgen) ERROR: Missing atoms for improper C(0) CA(0) N(1) O(0)
+	in residue ASN:111
+psfgen) ERROR: Missing atoms for cross-term  C(-1) N(0) CA(0) C(0) N(0) CA(0) C(0) N(1)
+	in residue ASN:111
+psfgen) Warning: missing atoms for conformation ASN CA-C-N-CA; skipping.
+psfgen) Warning: missing atoms for conformation ASN N-CA-C-O; skipping.
+psfgen) Warning: missing atoms for conformation ASN N-CA-C-N; skipping.
+psfgen) Warning: explicit angles in residue TIP3:5 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:7 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:8 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:11 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:14 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:15 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:126 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:127 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:128 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:129 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:130 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:131 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:132 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:133 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:134 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:135 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:136 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:137 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:138 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:139 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:140 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:141 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:142 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:143 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:144 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:145 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:146 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:147 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:148 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:149 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:150 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:151 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:152 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:153 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:154 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:155 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:156 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:157 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:158 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:159 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:160 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:161 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:162 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:163 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:164 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:165 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:166 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:167 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:168 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:169 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:170 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:171 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:172 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:173 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:174 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:175 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:176 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:177 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:178 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:179 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:180 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:181 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:182 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:183 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:184 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:185 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:186 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:187 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:188 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:189 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:190 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:191 will be deleted during autogeneration
+psfgen) Warning: explicit angles in residue TIP3:192 will be deleted during autogeneration
+segment complete.
+psfgen) reading coordinates from pdb file lig.pdb for segment B
+psfgen) Info: guessing coordinates for 0 atoms (0 non-hydrogen)
+psfgen) Info: writing pdb file system.pdb
+psfgen) Info: pdb file complete.
+psfgen) Info: writing psf file system.psf
+psfgen) total of 1919 atoms
+psfgen) total of 1854 bonds
+psfgen) total of 3141 angles
+psfgen) total of 4477 dihedrals
+psfgen) total of 263 impropers
+psfgen) total of 0 explicit exclusions
+psfgen) total of 94 cross-terms
+psfgen) Info: psf file complete.
+A:17 
+B:25 
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 6 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 3714MB (46%)
+Info) Creating CUDA device pool and initializing hardware...
+Info) Detected 1 available CUDA accelerator:
+Info) [0] GeForce GTX 1070   15 SM_6.1 @ 1.68 GHz, 7.9GB RAM, KTO, AE2, ZCP
+Info) Detected 1 available TachyonL/OptiX ray tracing accelerator
+Info)   Compiling 1 OptiX shaders on 1 target GPU...
+Info) Dynamically loaded 4 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl ~/franck-hd/softwares-ic/la101psx
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl ~/franck-hd/softwares-ic/la101psx ~/franck-hd/softwares-ic/orient
+1.7
+vecsub: two vectors don't have the same size
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 6 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 3707MB (46%)
+Info) Creating CUDA device pool and initializing hardware...
+Info) Detected 1 available CUDA accelerator:
+Info) [0] GeForce GTX 1070   15 SM_6.1 @ 1.68 GHz, 7.9GB RAM, KTO, AE2, ZCP
+Info) Detected 1 available TachyonL/OptiX ray tracing accelerator
+Info)   Compiling 1 OptiX shaders on 1 target GPU...
+Info) Dynamically loaded 4 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl ~/franck-hd/softwares-ic/la101psx
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl ~/franck-hd/softwares-ic/la101psx ~/franck-hd/softwares-ic/orient
+1.5
+Autoionize) Reading solvate.psf/solvate.pdb...
+psfgen) clearing structure, preserving topology and aliases
+ERROR: Unable to open psf file solvate.psf
+MOLECULE DESTROYED BY FATAL ERROR!  Use resetpsf to start over.
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > 
