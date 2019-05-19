@@ -1,1 +1,0 @@
-Running solvate with arguments: system.psf system.pdb -o solvate -b 1.5 -minmax {{- 3 0 , - 3 0 , - 4 5} {30 30 45}}

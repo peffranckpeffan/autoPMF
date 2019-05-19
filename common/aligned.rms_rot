@@ -1,8 +1,8 @@
 RMSD matrix (based on multiple superpostion):
        1    2  
      ----------
-  1|  ---  2.1
-  2|  2.1  ---
+  1|  ---  7.6
+  2|  7.6  ---
 
 Traslation vector for struct 1 (base-complex.pdb):
    0.000   0.000   0.000
@@ -12,9 +12,9 @@ Rotation matrix for struct 1 (base-complex.pdb):
    0.000   0.000   1.000
 
 Traslation vector for struct 2 (system.pdb):
-   0.203   0.770  -1.132
+   1.003   0.323  -1.352
 Rotation matrix for struct 2 (system.pdb):
-   0.317   0.791   0.524
-   0.914  -0.107  -0.391
-  -0.253   0.603  -0.757
+   0.247   0.869   0.430
+   0.926  -0.081  -0.368
+  -0.285   0.489  -0.825
 

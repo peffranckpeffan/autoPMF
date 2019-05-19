@@ -49,15 +49,15 @@ if (goFoward):
 		command = '../lib/thirty/mustang/bin/mustang-3.2.3 -p ./ -i base-complex.pdb system.pdb -o aligned -r ON'
 		util.call_subprocess(command, common_location, True)
 
-		build.splitChains('system.pdb', 'chain A', 'chain B', sys_inf['location'],common_location)
+		# build.splitChains('system.pdb', 'chain A', 'chain B', sys_inf['location'],common_location)
 
-		build.generatePSF(stand_files['parameters'], 'system', sys_inf['location'], common_location)
+		# build.generatePSF(stand_files['parameters'], 'system', sys_inf['location'], common_location)
 
-		#SOLVATING
-		build.solvate(init_config['minimum size of water box'], init_config['maximum size of water box'].split(','), sys_inf['location'], common_location)
+		# #SOLVATING
+		# build.solvate(init_config['minimum size of water box'], init_config['maximum size of water box'].split(','), sys_inf['location'], common_location)
 
-		#IONAZING
-		build.ionize(init_config['ions concentratrion'], sys_inf['location'], common_location)
+		# #IONAZING
+		# build.ionize(init_config['ions concentratrion'], sys_inf['location'], common_location)
 
 	if (stage == 'equil'):
 		util.createDir(sys_inf['location']+'/equil')
