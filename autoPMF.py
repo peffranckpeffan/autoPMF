@@ -42,22 +42,29 @@ if (goFoward):
 		build.generatePSF(stand_files['parameters'], 'system', sys_inf['location'], common_location)
 
 		#USING MUSTANG
-		build.splitChains('base.pdb', 'chain A', 'chain B', sys_inf['location'], common_location)
+		#Spliting chains of the base pdb
+		build.splitChains('base.pdb', 'chain A and noh', 'chain B and noh', sys_inf['location'], common_location)
 
+		#buildin the base complex mdm2-p53 
 		build.generatePSF(stand_files['parameters'], 'base-complex', sys_inf['location'], common_location)
 
+		#align the the two systems
 		command = '../lib/thirty/mustang/bin/mustang-3.2.3 -p ./ -i base-complex.pdb system.pdb -o aligned -r ON'
 		util.call_subprocess(command, common_location, True)
 
-		# build.splitChains('system.pdb', 'chain A', 'chain B', sys_inf['location'],common_location)
+		#editing PDB - may vary from system to system
+		util.editPDB()
 
-		# build.generatePSF(stand_files['parameters'], 'system', sys_inf['location'], common_location)
+		#building the align system
+		build.splitChains('final_pdb.pdb', 'chain A', 'chain B', sys_inf['location'], common_location)
 
-		# #SOLVATING
-		# build.solvate(init_config['minimum size of water box'], init_config['maximum size of water box'].split(','), sys_inf['location'], common_location)
+		build.generatePSF(stand_files['parameters'], 'system', sys_inf['location'], common_location)
 
-		# #IONAZING
-		# build.ionize(init_config['ions concentratrion'], sys_inf['location'], common_location)
+		#SOLVATING
+		build.solvate(init_config['minimum size of water box'], init_config['maximum size of water box'], sys_inf['location'], common_location)
+
+		#IONAZING
+		build.ionize(init_config['ions concentratrion'], sys_inf['location'], common_location)
 
 	if (stage == 'equil'):
 		util.createDir(sys_inf['location']+'/equil')

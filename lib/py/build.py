@@ -25,8 +25,8 @@ def generatePSF(parameters, sys_name, location, common_location):
 	os.remove('lib/tcl/psf.tmp.tcl')
 
 def solvate(min_box, max_box, location, common_location):
-	min_box = ' '.join(min_box)
-	max_box = ' '.join(max_box)
+	min_box = ' '.join(min_box.split(','))
+	max_box = ' '.join(max_box.split(','))
 
 	with open('lib/tcl/solvate.tcl','r') as solvate_tcl:
 		with open('lib/tcl/solvate.tmp.tcl','w') as solvate_tcl_tmp:
